@@ -36,11 +36,11 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-![Screenshot 2025-03-11 113904](https://github.com/user-attachments/assets/587480e8-efff-4aff-a036-edd807931543)
+
 
 
 ## OUTPUT:
-![Screenshot 2025-03-11 113959](https://github.com/user-attachments/assets/a389387e-2265-483f-8df7-238c3e92a5e8)
+
 
 
 
