@@ -36,49 +36,10 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-```
-from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Colored Webpage</title>
-    <style>
-        body {
-            background-color: lightblue; /* Sets the background color */
-            text-align: center; /* Centers the text */
-            font-family: Arial, sans-serif;
-        }
-    </style>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple webpage with a background color.</p>
-    <a href="https://www.google.com" target="_blank">Visit Google</a>
-</body>
-</html>
-"""
-class myhandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        print("request received")
-        self.send_response(200)
-        self.send_header('content-type', 'text/html; charset=utf-8')
-        self.end_headers()
-        self.wfile.write(content.encode())
-server_address = ('',80)
-httpd = HTTPServer(server_address,myhandler)
-print("my webserver is running...")
-httpd.serve_forever()
-
-```
 
 
 
 ## OUTPUT:
-![Screenshot 2025-03-11 113904](https://github.com/user-attachments/assets/b3c60089-bf48-44b8-b280-f4b00ab178d2)
-![Screenshot 2025-03-11 113959](https://github.com/user-attachments/assets/fa1556fe-99ee-4c99-bb8a-ed32451bde7b)
 
 
 
