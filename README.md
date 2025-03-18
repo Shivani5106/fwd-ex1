@@ -1,8 +1,10 @@
 # EX01 Developing a Simple Webserver
+## 24003648
+## 212224040313
 ## Date: 11.03.2025
 
 ## AIM:
-To develop a simple webserver to serve html pages and display the list of protocols in TCP/IP Protocol Suite.
+To develop a simple webserver to serve html pages and display the simple web page.
 
 ## DESIGN STEPS:
 ### Step 1: 
