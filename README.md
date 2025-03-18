@@ -1,5 +1,4 @@
 # EX01 Developing a Simple Webserver
-## 24003648
 ## 212224040313
 ## Date: 11.03.2025
 
